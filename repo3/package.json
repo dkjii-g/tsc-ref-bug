@@ -1,0 +1,13 @@
+{
+  "name": "test repo1 for references",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/a.js",
+	"types": "dist/a.d.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

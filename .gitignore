@@ -1,3 +1,4 @@
-/*/node_modules
+/*/node_modules/*
 /*/tsconfig.tsbuildinfo
 /*/dist
+!/repo4/node_modules/repo1_copy/

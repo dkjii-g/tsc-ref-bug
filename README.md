@@ -23,3 +23,7 @@ This is the content for repo3.
 `repo3/b.ts(1,9): error TS2303: Circular definition of import alias 'T'.`
 
 since `repo1/a.d.ts` imports 'b' (resolves to `repo3/b.ts`) -> imports `repo1/a.d.ts` -> ...
+
+`repo4` has no tsconfig and a copy of repo1 inside its node_modules.
+
+It shows that this is an issue with d.ts file importing and not path/references.

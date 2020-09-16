@@ -24,6 +24,7 @@ This is the content for repo3.
 
 since `repo1/a.d.ts` imports 'b' (resolves to `repo3/b.ts`) -> imports `repo1/a.d.ts` -> ...
 
-`repo4` has no tsconfig and a copy of repo1 inside its node_modules.
+`repo1/a.d.ts` importing 'b' should resolve to `repo1/b.d.ts` and not `repo3/b.ts`
 
-It shows that this is an issue with d.ts file importing and not path/references.
+To show that this is an issue with d.ts file importing and no path/references, `repo4`
+has no tsconfig and has a copy of repo1 inside its node_modules.

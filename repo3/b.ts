@@ -1,3 +1,3 @@
-import {T} from 'repo1';
+import type {T} from 'repo1';
 
 export type {T};

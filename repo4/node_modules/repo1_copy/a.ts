@@ -1,3 +1,3 @@
-import {T} from 'b';
+import type {T} from 'b';
 
 export type {T};

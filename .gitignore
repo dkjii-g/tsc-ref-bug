@@ -2,3 +2,4 @@
 /*/tsconfig.tsbuildinfo
 /*/dist
 !/repo4/node_modules/repo1_copy/
+/repo4/node_modules/repo1_copy/tsconfig.tsbuildinfo
